@@ -148,7 +148,11 @@ p{
     }
 
     .centered article h4{
-        font-size:14px;
+        font-size:13px;
+    }
+    
+    .centered article h5{
+        font-size:12px;
     }
 
     .centered .btn{

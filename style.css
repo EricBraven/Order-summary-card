@@ -148,21 +148,57 @@ p{
     }
 
     .centered article h4{
-        font-size:13px;
-    }
-    
-    .centered article h5{
-        font-size:12px;
+        font-size:14px;
     }
 
     .centered .btn{
         font-size:13px;
-        padding:10px 20vw;
+        padding:10% 30%;
+        margin:10px 0;
+    }
+
+    .centered .btn-transparent{
+        padding:10% 26%;
+        margin:0 0 20px;
+    }
+    
+}
+
+@media(max-width:500px){
+    body{
+        background-image:url(images/pattern-background-mobile.svg);
+    }
+
+    .centered{
+        margin:20px 30px;
+    }
+
+    .centered .dancer{
+        width: 100%;
+    }
+
+    .centered p{
+        padding:0 20px 20px;
+        font-size:16px;
+    }
+
+    .centered article{
+        padding:15px;
+        margin:10px 20px;
+    }
+
+    .centered article h4{
+        font-size:14px;
+    }
+
+    .centered .btn{
+        font-size:13px;
+        padding:3% 30%;
         margin:10px 0
     }
 
     .centered .btn-transparent{
-        padding:10px 26vw;
+        padding:3% 36%;
         margin:0 0 20px;
     }
     
